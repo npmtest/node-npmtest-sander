@@ -1,6 +1,6 @@
 # npmtest-sander
 
-#### test coverage for  [sander (v0.6.0)](https://github.com/rich-harris/sander#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sander.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sander) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sander.svg)](https://travis-ci.org/npmtest/node-npmtest-sander)
+#### basic test coverage for  [sander (v0.6.0)](https://github.com/rich-harris/sander#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sander.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sander) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sander.svg)](https://travis-ci.org/npmtest/node-npmtest-sander)
 
 #### Promise-based power tool for common filesystem tasks
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sander/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sander/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sander/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sander/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sander/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sander/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sander/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sander/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sander/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sander/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sander/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sander/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
         "pretest": "npm run build",
         "test": "mocha"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
